@@ -21,7 +21,7 @@
 
  var client_id = process.env.CLIENTID ; // Your client id
  var client_secret = process.env.SECRET ; // Your secret
- var redirect_uri = process.env.REDIRECT_URI ; // Your redirect uri
+ var redirect_uri = "https://angular-spotify-api.vercel.app/callback" ; // Your redirect uri
  
  /**
   * Generates a random string containing numbers and letters
